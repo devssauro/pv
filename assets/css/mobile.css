@@ -1,0 +1,151 @@
+@media screen and (max-width: 610px) {
+  header#header {
+    width: 100%;
+    height: 610px;
+    background-image: url("../images/background01.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  header#header .container h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  header#header .container h6 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+
+  header#header .container video {
+    margin-top: 32px;
+    max-width: 80%;
+    width: 100%;
+    border-radius: 4px;
+    border: 3px solid #1a83ff;
+  }
+
+  header#header .container button {
+    width: 300px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  section#about .container .img-about {
+    max-width: 250px;
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  section#about .container {
+    flex-direction: column;
+  }
+
+  section#about .container div h4::after {
+    content: "";
+    display: flex;
+    width: 140px;
+    height: 3px;
+    background: #1a83ff;
+    border-radius: 5px;
+  }
+
+  section#about .container .img-about img {
+    max-height: 100%;
+  }
+
+  section#about .container div {
+    text-align: center;
+    margin: 0;
+  }
+
+  section#about .container div span {
+    max-width: 560px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  section#about-2 {
+    height: auto;
+  }
+
+  section#about-2 .container {
+    flex-direction: column;
+  }
+
+  section#about-2 .container div {
+    text-align: center;
+  }
+
+  section#about-2 .container div h4 {
+    display: inline-block;
+  }
+
+  section#about-2 .container p {
+    text-align: center;
+    margin: 0;
+    max-width: 600px;
+    margin-top: 32px;
+  }
+
+  section#icons {
+    width: 100%;
+  }
+
+  section#icons .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  section#icons .container div {
+    margin-top: 32px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  section#icons span {
+    max-width: 400px;
+    padding: 0 32px;
+  }
+
+  section#button-cta button {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  section#text .container h5 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #171717;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  section#investiment .container h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  section#investiment .container h5 {
+    margin-top: 64px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  header#header .fake-header h6 {
+    font-size: 14px;
+  }
+}

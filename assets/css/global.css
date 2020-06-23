@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #f7f7f7;
+}
+
+body,
+input,
+button,
+a {
+  font: 16px Roboto, sans-serif;
+  color: #f7f7f7;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h6,
+p,
+span {
+  font-family: "Roboto Slab", serif;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+span {
+  font-size: 14px;
+}
+
+.animation {
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.animation.right {
+  transform: translate3d(-50px, 0, 0);
+}
+
+.animation.left {
+  transform: translate3d(50px, 0, 0);
+}
+
+.animation.top {
+  transform: translate3d(0, -50px, 0);
+}
+
+.animation.bottom {
+  transform: translate3d(0, 50px, 0);
+}
+
+.animation.animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.container {
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+blue {
+  color: #1a83ff;
+}
+
+red {
+  color: #ff0000;
+}
